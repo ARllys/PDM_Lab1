@@ -1,4 +1,4 @@
-var video = document.getElemetById("video");
+var video = document.getElementById("video");
 //video.addEventListener("touchstart",capteaza);
 //video.addEventListener("mousedown",capteaza);
 
