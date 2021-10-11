@@ -10,7 +10,7 @@ function on_cam_error(err){
 	alert("error."+err.message);
 }
 
-var constraints = {audio: false; video: true};
+var constraints = {audio: false, video: true};
 navigator.mediaDevices.getUserMedia(constraints)
 .then(on_cam_success)
 .catch(on_cam_error);
